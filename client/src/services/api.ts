@@ -1,6 +1,6 @@
 import type { ApiResponse, Lead, LeadInput, LeadSource, LeadStatus, PaginationMeta, User, UserRole } from "../types/domain";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "https://smart-leads-dashboard-backend-7z07.onrender.com";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "https://smart-leads-dashboard-backend-7z07.onrender.com/api";
 const TOKEN_KEY = "smart_leads_token";
 
 export interface AuthPayload {
